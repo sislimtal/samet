@@ -1,0 +1,187 @@
+$color_1: #a09a9a;
+$color_2: #fff;
+$color_3: black;
+$color_4: #808080;
+$color_5: #000;
+$color_6: #581f1f;
+$font-family_1: sans-serif;
+$background-color_1: #000;
+$background-color_2: #353333;
+$background-color_3: mediumorchid;
+
+body {
+	font-family: $font-family_1;
+}
+header {
+	height: 50px;
+	background-color: $background-color_1;
+	padding: 0 60px;
+	#sosyal {
+		float: left;
+		a {
+			color: $color_1;
+			font-size: 25px;
+			margin-left: 10px;
+			text-decoration: none;
+			line-height: 50px;
+			&:hover {
+				color: $color_2;
+			}
+		}
+	}
+	#arama {
+		float: right;
+		line-height: 50px;
+		#txtArama {
+			height: 25px;
+			background-color: $background-color_2;
+			border: none;
+			color: $color_2;
+		}
+	}
+}
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	h1 {
+		color: $color_3;
+		font-size: 90px;
+		text-align: center;
+		font-weight: 500;
+		line-height: 30px;
+		margin-top: 80px;
+	}
+	nav {
+		height: 100px;
+		ul {
+			list-style-type: none;
+			text-align: center;
+			padding: 20px 0 0 0;
+			li {
+				display: inline;
+				margin-left: 80px;
+				&:first-child {
+					margin-left: 0;
+				}
+				a {
+					color: $color_4;
+					text-decoration: none;
+					font-size: 16px;
+					&:hover {
+						color: $color_5;
+					}
+				}
+			}
+		}
+	}
+	.aktif {
+		color: $color_5;
+	}
+	#banner {
+		width: 1000px;
+		height: 526px;
+		background-image: url(görsel/piza.jpg);
+	margin:
+    auto  ;
+		p {
+			font-size: 40px;
+			color: $color_2;
+			font-weight: 600;
+			margin-top: 0;
+			padding: 180px 20px;
+		}
+	}
+	#servisler {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		height: 500px;
+		h2 {
+			font-size: 30px;
+			color: $color_6;
+		}
+		p {
+			width: 75%;
+			margin: 0 auto;
+		}
+		#alt-servisler {
+			margin-top: 40px;
+			div {
+				width: 500px;
+				float: left;
+				margin-bottom: 40px;
+			}
+			.logo {
+				float: left;
+				width: 20%;
+				margin: 0;
+				img {
+					margin-top: 35px;
+				}
+			}
+			.servis-aciklama {
+				float: left;
+				width: 80%;
+				margin: 0;
+				h4 {
+					margin: 0;
+					color: $color_6;
+					margin-bottom: 10px;
+					text-align: left;
+				}
+				p {
+					margin: 0;
+					width: 350px;
+					text-align: justify;
+				}
+			}
+		}
+	}
+	#musteriler {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		height: 500px;
+		h2 {
+			font-size: 30px;
+			color: $color_6;
+		}
+		p {
+			width: 75%;
+			margin: 0 auto;
+		}
+		#alt-grousler {
+			margin-top: 40px;
+			.kutu {
+				width: 30%;
+				float: left;
+			}
+		}
+	}
+}
+#coonteriner {
+	#musteriler {
+		#alt-gorusler {
+			.kutu {
+				width: 30 px;
+				float: left;
+				margin-right: 30px;
+				border-radius: 20px;
+				padding-top: 20px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+#coonteriner {
+
+	#musteriler {
+		#alt-gorusler {
+			.kutu {
+				&:hover {
+					background-color: $background-color_3;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,165 @@
+@charset "UTF-8";
+body {
+  font-family: sans-serif;
+}
+
+header {
+  height: 50px;
+  background-color: #000;
+  padding: 0 60px;
+}
+header #sosyal {
+  float: left;
+}
+header #sosyal a {
+  color: #a09a9a;
+  font-size: 25px;
+  margin-left: 10px;
+  text-decoration: none;
+  line-height: 50px;
+}
+header #sosyal a:hover {
+  color: #fff;
+}
+header #arama {
+  float: right;
+  line-height: 50px;
+}
+header #arama #txtArama {
+  height: 25px;
+  background-color: #353333;
+  border: none;
+  color: #fff;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+#container h1 {
+  color: black;
+  font-size: 90px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 80px;
+}
+#container nav {
+  height: 100px;
+}
+#container nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+#container nav ul li {
+  display: inline;
+  margin-left: 80px;
+}
+#container nav ul li:first-child {
+  margin-left: 0;
+}
+#container nav ul li a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 16px;
+}
+#container nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+#container .aktif {
+  color: #000;
+}
+#container #banner {
+  width: 1000px;
+  height: 526px;
+  background-image: url(görsel/piza.jpg);
+  margin: auto;
+}
+#container #banner p {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 180px 20px;
+}
+#container #servisler {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  height: 500px;
+}
+#container #servisler h2 {
+  font-size: 30px;
+  color: #581f1f;
+}
+#container #servisler p {
+  width: 75%;
+  margin: 0 auto;
+}
+#container #servisler #alt-servisler {
+  margin-top: 40px;
+}
+#container #servisler #alt-servisler div {
+  width: 500px;
+  float: left;
+  margin-bottom: 40px;
+}
+#container #servisler #alt-servisler .logo {
+  float: left;
+  width: 20%;
+  margin: 0;
+}
+#container #servisler #alt-servisler .logo img {
+  margin-top: 35px;
+}
+#container #servisler #alt-servisler .servis-aciklama {
+  float: left;
+  width: 80%;
+  margin: 0;
+}
+#container #servisler #alt-servisler .servis-aciklama h4 {
+  margin: 0;
+  color: #581f1f;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#container #servisler #alt-servisler .servis-aciklama p {
+  margin: 0;
+  width: 350px;
+  text-align: justify;
+}
+#container #musteriler {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  height: 500px;
+}
+#container #musteriler h2 {
+  font-size: 30px;
+  color: #581f1f;
+}
+#container #musteriler p {
+  width: 75%;
+  margin: 0 auto;
+}
+#container #musteriler #alt-grousler {
+  margin-top: 40px;
+}
+#container #musteriler #alt-grousler .kutu {
+  width: 30%;
+  float: left;
+}
+
+#coonteriner #musteriler #alt-gorusler .kutu {
+  width: 30 px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+#coonteriner #musteriler #alt-gorusler .kutu:hover {
+  background-color: mediumorchid;
+}/*# sourceMappingURL=style.css.map */
